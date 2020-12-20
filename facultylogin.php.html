@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="UTF-8">
+  	<title>Login Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="login">
+	<h1>Faculty Login</h1>
+    <form method="post" name="loginFaculty" action="form.html">
+      <input type="text" name="id" placeholder="UserID" required="required" />
+        <input type="password" name="pswd" placeholder="Password" required="required" />
+        <select name="role">
+          <option value="">--Select Role--</option>
+          <option value="internal">Internal</option>
+          <option value="external">External</option>
+          <option value="lab assistant">Lab Assistant</option>
+          <option value="expert">Expert</option>
+          </select>
+          <input type="submit" value="Submit" name="action" class="btn btn-primary btn-block btn-large">
+
+    </form>
+  </div>
+</body>
+</html>
